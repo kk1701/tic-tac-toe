@@ -1,0 +1,30 @@
+.grid{
+    height: 350px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.turn-highlight, .winner{
+    color: whitesmoke;
+    
+}
+
+.restart-btn{
+    height: 45px;
+    width: 90px;
+    font-size: 18px;
+    font-weight: 520;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: whitesmoke;
+    background-color: var(--resetGreen);
+    /* font-size: 16px; */
+}
+
+.restart-btn:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}

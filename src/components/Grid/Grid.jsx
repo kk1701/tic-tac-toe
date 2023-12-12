@@ -58,3 +58,10 @@ function Grid({numberOfCards}){
 }
 
 export default Grid;
+
+
+
+// The setter function of a state does not go to the variable explicitly and then make changes, it re renders the component with a new state.
+// Value of a state variable will never change in current render, it will change in next re render.
+
+// React waits for all updates in a current event and re renders the component after completing all events.

@@ -13,3 +13,7 @@ function App() {
 }
 
 export default App;
+
+
+// When a parent is re-rendered, the children are bound to re-render even when there is no need.
+// To avoid this, we use memo.
